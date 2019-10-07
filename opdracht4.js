@@ -10,6 +10,10 @@ function main(){
         alert(tafelAmount + " mag maximaal 10 zijn! :(")
         main()
     }
+    else if (isNaN(tafelAmount)){
+        alert(tafelAmount + " moet een getal zijn! :(")
+        main()
+    }
 
     tafels(tafelAmount)
 }
