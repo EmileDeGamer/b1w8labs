@@ -1,4 +1,4 @@
-let canType, name, age
+let name, age
 
 function main(){
     name = prompt("Naam:", "Naam:")
